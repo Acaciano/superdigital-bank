@@ -1,4 +1,4 @@
-# superdigital-bank# Super Digital - Bank
+# Super Digital - Bank
 
 Postman para teste:
 https://www.getpostman.com/collections/0753a8e6d45f3dd9b822
