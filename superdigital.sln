@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{42244BE8-5274-4F18-A13E-CE6D5B63033B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E34F419E-B81A-4A2C-AD64-B5B43D61EC14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{78B8F75D-805C-4A4F-AB88-3A19624C86FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{DF5F4A93-415C-429A-8E81-FD995AED6BE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{46D7FA12-DF40-4711-BE33-008B606A178F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{741BBCCF-C062-481C-8D65-93D366AEBD9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Digital Account", "Digital Account", "{1E6646C9-DE0D-46E8-8A71-3B29F994D6FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Micro Services", "Micro Services", "{6F2471E5-F3EE-4C15-A266-EE371F58F714}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperDigital.DigitalAccount.Domain", "modules\digital account\domain\domain\SuperDigital.DigitalAccount.Domain\SuperDigital.DigitalAccount.Domain.csproj", "{BF58FD02-46E0-47BD-8863-1DCB7757F8E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperDigital.DigitalAccount.CrossCutting", "modules\digital account\infrastructure\crossCutting\SuperDigital.DigitalAccount.CrossCutting\SuperDigital.DigitalAccount.CrossCutting.csproj", "{66BC2111-10B9-42A2-B0F8-5210CDED1BAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperDigital.DigitalAccount.Data", "modules\digital account\infrastructure\data\SuperDigital.DigitalAccount.Data\SuperDigital.DigitalAccount.Data.csproj", "{5CCB9D9E-C0D4-4DAE-956E-7F29FE5B5D2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperDigital.DigitalAccount.Ioc", "modules\digital account\infrastructure\ioc\SuperDigital.DigitalAccount.Ioc\SuperDigital.DigitalAccount.Ioc.csproj", "{3C757CDE-F97C-472F-93F7-A6750A72245E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", "{357B15A7-F203-4657-A0D6-998F2FA65CCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{54BC5686-148B-4BD4-9A6C-42872864A058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperDigital.DigitalAccount.Api", "modules\digital account\api\SuperDigital.DigitalAccount.Api.csproj", "{12A19ABC-89B3-4AEF-8447-3DAE53BBFD71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DACE15A2-949D-4C65-B5FF-5222EF1E145A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigital.DigitalAccount.Application", "modules\digital account\application\SuperDigital.DigitalAccount.Application\SuperDigital.DigitalAccount.Application.csproj", "{685751C5-D33B-4672-9C1D-98FCEB0DDF67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF58FD02-46E0-47BD-8863-1DCB7757F8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF58FD02-46E0-47BD-8863-1DCB7757F8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF58FD02-46E0-47BD-8863-1DCB7757F8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF58FD02-46E0-47BD-8863-1DCB7757F8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BC2111-10B9-42A2-B0F8-5210CDED1BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BC2111-10B9-42A2-B0F8-5210CDED1BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BC2111-10B9-42A2-B0F8-5210CDED1BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BC2111-10B9-42A2-B0F8-5210CDED1BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCB9D9E-C0D4-4DAE-956E-7F29FE5B5D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCB9D9E-C0D4-4DAE-956E-7F29FE5B5D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCB9D9E-C0D4-4DAE-956E-7F29FE5B5D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCB9D9E-C0D4-4DAE-956E-7F29FE5B5D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C757CDE-F97C-472F-93F7-A6750A72245E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C757CDE-F97C-472F-93F7-A6750A72245E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C757CDE-F97C-472F-93F7-A6750A72245E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C757CDE-F97C-472F-93F7-A6750A72245E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A19ABC-89B3-4AEF-8447-3DAE53BBFD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A19ABC-89B3-4AEF-8447-3DAE53BBFD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A19ABC-89B3-4AEF-8447-3DAE53BBFD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A19ABC-89B3-4AEF-8447-3DAE53BBFD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685751C5-D33B-4672-9C1D-98FCEB0DDF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685751C5-D33B-4672-9C1D-98FCEB0DDF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685751C5-D33B-4672-9C1D-98FCEB0DDF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685751C5-D33B-4672-9C1D-98FCEB0DDF67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42244BE8-5274-4F18-A13E-CE6D5B63033B} = {1E6646C9-DE0D-46E8-8A71-3B29F994D6FE}
+		{E34F419E-B81A-4A2C-AD64-B5B43D61EC14} = {1E6646C9-DE0D-46E8-8A71-3B29F994D6FE}
+		{78B8F75D-805C-4A4F-AB88-3A19624C86FA} = {E34F419E-B81A-4A2C-AD64-B5B43D61EC14}
+		{DF5F4A93-415C-429A-8E81-FD995AED6BE0} = {E34F419E-B81A-4A2C-AD64-B5B43D61EC14}
+		{46D7FA12-DF40-4711-BE33-008B606A178F} = {42244BE8-5274-4F18-A13E-CE6D5B63033B}
+		{741BBCCF-C062-481C-8D65-93D366AEBD9E} = {E34F419E-B81A-4A2C-AD64-B5B43D61EC14}
+		{1E6646C9-DE0D-46E8-8A71-3B29F994D6FE} = {6F2471E5-F3EE-4C15-A266-EE371F58F714}
+		{BF58FD02-46E0-47BD-8863-1DCB7757F8E3} = {46D7FA12-DF40-4711-BE33-008B606A178F}
+		{66BC2111-10B9-42A2-B0F8-5210CDED1BAA} = {78B8F75D-805C-4A4F-AB88-3A19624C86FA}
+		{5CCB9D9E-C0D4-4DAE-956E-7F29FE5B5D2D} = {DF5F4A93-415C-429A-8E81-FD995AED6BE0}
+		{3C757CDE-F97C-472F-93F7-A6750A72245E} = {741BBCCF-C062-481C-8D65-93D366AEBD9E}
+		{357B15A7-F203-4657-A0D6-998F2FA65CCD} = {1E6646C9-DE0D-46E8-8A71-3B29F994D6FE}
+		{54BC5686-148B-4BD4-9A6C-42872864A058} = {357B15A7-F203-4657-A0D6-998F2FA65CCD}
+		{12A19ABC-89B3-4AEF-8447-3DAE53BBFD71} = {54BC5686-148B-4BD4-9A6C-42872864A058}
+		{DACE15A2-949D-4C65-B5FF-5222EF1E145A} = {1E6646C9-DE0D-46E8-8A71-3B29F994D6FE}
+		{685751C5-D33B-4672-9C1D-98FCEB0DDF67} = {DACE15A2-949D-4C65-B5FF-5222EF1E145A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ECA1F33-68E7-404C-9D4B-E04AF40F46FA}
+	EndGlobalSection
+EndGlobal

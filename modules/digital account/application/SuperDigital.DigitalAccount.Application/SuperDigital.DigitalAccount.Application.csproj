@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\domain\domain\SuperDigital.DigitalAccount.Domain\SuperDigital.DigitalAccount.Domain.csproj" />
+    <ProjectReference Include="..\..\infrastructure\crossCutting\SuperDigital.DigitalAccount.CrossCutting\SuperDigital.DigitalAccount.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>SuperDigital.DigitalAccount.Ioc</AssemblyName>
+    <RootNamespace>SuperDigital.DigitalAccount.Ioc</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreCompatibility" Version="1.1.0" />
+    <PackageReference Include="CommonServiceLocation" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\application\SuperDigital.DigitalAccount.Application\SuperDigital.DigitalAccount.Application.csproj" />
+    <ProjectReference Include="..\..\..\domain\domain\SuperDigital.DigitalAccount.Domain\SuperDigital.DigitalAccount.Domain.csproj" />
+    <ProjectReference Include="..\..\data\SuperDigital.DigitalAccount.Data\SuperDigital.DigitalAccount.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
